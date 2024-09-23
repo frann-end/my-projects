@@ -1,0 +1,154 @@
+/* Pada project keempat ini membahas banyak hal tentang CSS, bahkan sampai membuat project
+kecil berupa gift card. Berikut detail apa saja yang di pelajari : */
+
+/* 1. Allign Items Flexbox
+Allign item berfungsi sebagai pengatur posisi objek yang berada pada flexbox, yaitu ke tengah
+bawah, dll. */
+
+/* 2. Flex Direction
+Flex direction berfungsi untuk  mengubah arah posisi objek pada flexbox yaitu antara
+Horizontal dan Vertikal (Column and Row) */
+
+/* 3. Pseudo Class : Hover
+Pseudo class kali ini berhubungan dengan mengubah suatu objek menjadi berubah saat di kenai
+arahan dengan Mouse, contoh mengubah suatu gambar biasa menjadi gambar gif saat gambar itu
+terkena arahan mouse kita*/
+
+/* 4. Gradients color
+Gradient berfungsi untuk mengubah warna dari objek atau background dengan warna yang lebih dari satu
+tapi menyatu dengan halus. */
+
+/* 5. Grouping selector
+Grouping selector berfungsi saat ingin memberi style yang sama pada class atau elemen yang
+lebih dari satu, dengan menggunakan koma pada setiap selector (contoh : h1,h2,h3)  */
+
+/* 6. Github Dekstop
+Github dekstop sebagai penghubung antara project kita dengan  akun github kita
+ */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(#fa8b41, rgb(240, 157, 132));
+    color: white;
+}
+
+.f-pic {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid white;
+
+}
+
+.text1 {
+    background: chocolate;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.text2 {
+    background: chocolate;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giftpicture {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../image/IMG_20240809_103244.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.giftpicture:active {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../image/giphy\ \(2\).gif);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.gifttext1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+
+
+.gifttext2 {
+margin-top: 0px;
+}
+
+.gifttext1-1 {
+    margin-top: 50px;
+    margin-bottom: 10pxpx;
+
+}
+
+.giftpicture2 {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../image/IMG_20240809_103244.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.giftpicture2:active {
+background-image: url(../image/giphy\ \(3\).gif);
+}
+
+.giftpicture3 {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../image/IMG_20240809_103244.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.giftpicture3:active {
+    background-image: url(../image/giphy\ \(1\).gif);
+    background-size: cover;
+    }
+
+.footer {
+    font-style: italic;
+}
+
+.footer1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.footer2 {
+    margin: 0;
+}
+
+
+.footer2:visited {
+    color: white;
+}
+
+.footer2:link {
+    color: white;
+}
